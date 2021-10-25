@@ -1,7 +1,12 @@
 
+body {
+    background-image: url(img/3.svg);
+}
+
 .header-wrapper {
     display: grid;
     grid-template-columns: 1fr 2fr;
+    background: linear-gradient(100deg, #997551, #3C5376);
 }
 
 
@@ -53,6 +58,7 @@ li {
     margin-top: 20px;
     height: 400px;
     width: 400px;
+    border-radius: 30px;
 }
 
 p {

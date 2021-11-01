@@ -39,27 +39,34 @@ li {
 }
 
 .innlegg {
-    display: grid;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 20px;
     background-color: #3C5376;
     border-radius: 30px;
 }
 
 .innlegg-2 {
-    display: grid;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 20px;
     background-color: #997551;
     border-radius: 30px;
 }
 
 .innlegg-img {
-    margin-left: 100px;
-    margin-top: 20px;
     height: 400px;
     width: 400px;
     border-radius: 30px;
+}
+
+h2 {
+    margin: 20px;
+    text-align: left;
+    color: white;
+    font-size: x-large;
 }
 
 p {
@@ -67,4 +74,11 @@ p {
     text-align: left;
     color: white;
     font-size: small;
+}
+
+.btn {
+    width: 100px;
+    height: 50px;
+    margin-left: 40%;
+    margin-bottom: 10px;
 }

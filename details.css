@@ -1,8 +1,3 @@
-
-body {
-    background-image: url(img/3.svg);
-}
-
 .header-wrapper {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -32,14 +27,10 @@ li {
     color: white;
 }
 
-.hero {
-    width: 100%;
-    height: 600px;
-}
-
 .home-decor {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+    margin: 20px;
     align-items: center;
 }
 
@@ -47,30 +38,32 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 20px;
+    justify-content: center;
     background-color: #3C5376;
     border-radius: 30px;
 }
 
-.innlegg-2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 20px;
-    background-color: #997551;
+
+.innlegg-img {
+    margin-left: 100px;
+    margin-top: 20px;
+    height: 700px;
+    width: 700px;
     border-radius: 30px;
 }
 
-.innlegg-img {
-    margin: 10px;
-    height: 400px;
-    width: 400px;
-    border-radius: 30px;
+h2 {
+    margin: 20px;
+    text-align: left;
+    color: white;
+    font-size: medium;
+    width: 80%;
 }
 
 p {
     margin: 20px;
     text-align: left;
     color: white;
-    font-size: small;
+    font-size: medium;
+    width: 80%;
 }

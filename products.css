@@ -1,0 +1,28 @@
+.header-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    background: linear-gradient(100deg, #997551, #3C5376);
+}
+
+
+.logo {
+    margin: 5px;
+    width: 80px;
+    height: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: x-large;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    color: white;
+}

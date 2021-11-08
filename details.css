@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Source+Sans+Pro&display=swap');
+
+
 .header-wrapper {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -25,6 +29,7 @@ a {
 li {
     list-style: none;
     color: white;
+    font-family: 'Playfair Display', serif;
 }
 
 .home-decor {
@@ -53,14 +58,17 @@ li {
 }
 
 h2 {
-    margin: 20px;
+    font-family: 'Playfair Display', serif;
+    display: flex;
+    justify-content: center;
     text-align: left;
     color: white;
-    font-size: medium;
+    font-size: xxx-large;
     width: 80%;
 }
 
 p {
+    font-family: 'Source Sans Pro', sans-serif;
     margin: 20px;
     text-align: left;
     color: white;

@@ -25,6 +25,7 @@ a {
 li {
     list-style: none;
     color: white;
+    font-family: 'Playfair Display', serif;
 }
 
 .hero2 {
@@ -66,6 +67,7 @@ h2 {
     margin: 20px;
     text-align: left;
     color: white;
+    font-family: 'Playfair Display', serif;
     font-size: x-large;
 }
 
@@ -74,6 +76,7 @@ p {
     text-align: left;
     color: white;
     font-size: small;
+    font-family: 'Playfair Display', serif;
 }
 
 .btn {

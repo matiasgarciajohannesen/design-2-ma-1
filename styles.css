@@ -1,4 +1,8 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Source+Sans+Pro&display=swap');
+
+
+
 body {
     background-image: url(img/3.svg);
 }
@@ -30,6 +34,7 @@ a {
 li {
     list-style: none;
     color: white;
+    font-family: 'Playfair Display', serif;
 }
 
 .hero {
@@ -73,4 +78,5 @@ p {
     text-align: left;
     color: white;
     font-size: small;
+    font-family: 'Source Sans Pro', sans-serif;
 }
